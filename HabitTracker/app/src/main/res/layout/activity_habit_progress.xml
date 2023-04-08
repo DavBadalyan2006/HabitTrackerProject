@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- Habit name TextView -->
+    <TextView
+        android:id="@+id/habit_name_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:textSize="20sp" />
+
+    <!-- Habit progress bar -->
+    <ProgressBar
+        android:id="@+id/habit_progress_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:max="100" />
+
+    <!-- Current streak TextView -->
+    <TextView
+        android:id="@+id/current_streak_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:textSize="16sp" />
+
+    <!-- Longest streak TextView -->
+    <TextView
+        android:id="@+id/longest_streak_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:textSize="16sp" />
+
+    <!-- Last completed TextView -->
+    <TextView
+        android:id="@+id/last_completed_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:textSize="16sp" />
+
+    <!-- Mark as completed Button -->
+    <Button
+        android:id="@+id/mark_completed_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="Mark as Completed" />
+
+</LinearLayout>
